@@ -1,0 +1,461 @@
+a {
+	text-decoration: none;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+	padding: 16px 0px;
+}
+
+.top {
+	height: 72px;
+	width: 100%;
+}
+
+.container {
+	padding-left: 0px;
+}
+
+
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-logo {
+}
+
+.client-block {
+	display: flex;
+	align-items: center;
+	margin-right: 0px;
+}
+
+.basket {
+	
+}
+
+.uber-logo {
+	width: 119.23px;
+	height: 12.31px;
+	margin-left: 8px;
+}
+
+.login {
+	height: 40px;
+	width: 78px;
+	border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    background: #fff;
+}
+
+.login-text {
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: center;
+
+}
+
+.basket-img {
+	width: 18.95px; 
+	height: 21.74px;
+	margin-left: 27px;
+	margin-right: 10px;
+}
+
+.search {
+	margin-top: 32px;
+	margin-bottom: 56px;
+}
+
+.search-form {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.search-input {
+	box-sizing: border-box;
+	width:  100%;
+	height: 48px;
+	padding-top: 24px;
+	border: none;
+	border-bottom: 1px solid #979797;
+	mix-blend-mode: color-burn;
+	opacity: 0.5;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.search-input:focus {
+	outline: none;
+}
+
+.main-content {
+
+}
+
+.main-content-title {
+	font-family: Roboto;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 34px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #1D1D1D;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 16px;
+}
+
+.stores-board {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 64px;
+}
+
+.store-card {
+	margin-bottom: 16px;
+}
+
+.card-img {
+	width: 100%;
+}
+
+.store-name {
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+
+	margin-top: 16px;
+	margin-bottom: 4px;
+	color: #1D1D1D;
+}
+
+.store-tags {
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+
+	margin-bottom: 4px;
+	color: #626262;
+}
+
+.delivery-time {
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+
+	padding-bottom: 20px;
+	color: #1D1D1D;
+
+
+}
+
+.footer {
+	background: #262626;
+	padding-top: 56px;
+}
+
+.footer-logo {
+	padding-bottom: 40.31px;
+	margin-left: 8px;
+	margin-right: 8px;	
+	border-bottom: 1px solid #979797;
+}
+
+.footer-logo > .uber-logo {
+	width: 190.77px;
+	height: 19.69px;
+	margin-left: 0px;
+}
+
+.credits {
+	box-sizing: border-box;
+	height: 220px;
+
+	margin-left: 8px;
+	margin-right: 8px;
+	padding-top: 32px;
+	padding-bottom: 22px;
+	border-bottom: 1px solid #979797;
+
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.selector {
+	font-size: 13px;
+	font-weight: 400;
+	font-family: Roboto;
+	border-radius: 1px;
+	background: #3B3B3B;
+	border: none;
+	color: #fff;
+	width: 100%;
+	height: 40px;
+	background-image: url("img/world.png");
+	background-repeat: no-repeat;
+	background-size: 15.72px;
+	background-position: left 16px bottom 12.14px;
+
+	padding-left: 48px;
+}
+
+.social-img {
+	width: 92px;
+	height: 60px;
+
+	margin-top: 33px;
+}
+
+.credit {
+	color: #fff;
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 15px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.flex-options {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.first {
+}
+
+.second {
+	flex-basis: 25%;
+}
+
+.second-1 {
+	flex-basis: 50%;
+}
+
+.third {
+	flex-basis: 25%;
+}
+
+.apps {
+	margin-left: 8px;
+	margin-right: 8px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #979797;
+}
+
+.app-logo {
+	height: 40px;
+}
+
+.titles {
+	padding-top: 40px;
+	padding-bottom: 16px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.title {
+	font-family: Roboto;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 13px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #fff;
+	margin-bottom: 24px;
+}
+
+.transition-arrow {
+	position: fixed;
+	width: 80px;
+	height: 80px;
+	background: #59BD5A;
+	background-image: url(img/Shape.png);
+	bottom: 24px;
+	right: 16px;
+
+	background-repeat: no-repeat;
+	background-size: 15px 25px;
+	background-position: center center;
+}
+
+.cafe-header {
+	width: 100%;
+	height: 364px;
+	background-image: url(img/photo.png);
+	background-size: cover;
+	background-position: center center;
+}
+
+.cafe {
+	height: 100%;
+	display: flex;
+    align-items: unset;
+	padding-left: 8px;
+}
+
+.cafe-card {
+	box-sizing: border-box;
+	height: 204px;
+	background: #fff;
+	box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+	align-self: center;
+}
+
+.card-title {
+	font-family: Roboto;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 42px;
+	letter-spacing: 0em;
+	text-align: center;
+
+	margin-top: 38px;
+	margin-bottom: 54px;
+}
+
+.cafe-info {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.card-tags {
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0em;
+	text-align: left;
+	display: inline-block;
+	color: #626262;
+}
+
+.card-delivery-time {
+	box-sizing: border-box;
+	background: #262626;
+	height: 32px;
+	width: 98px;
+	border-radius: 16px;
+
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 15px;
+	letter-spacing: 0em;
+	text-align: center;
+	display: inline-block;
+	color: #fff;
+	padding-top: 8px;
+}
+
+@media only screen and (max-width:768px) {
+
+	.credits {
+		height: 492px;
+		padding-top: 32px;
+		padding-bottom: 40px;
+		display: flex;
+		justify-content: space-between;
+		flex-flow: column nowrap;
+	}
+
+ 	.flex-options {
+	padding-left: 0px;
+	padding-right: 0px;
+	flex: 0 0 auto;
+	}
+
+	.first {
+
+	}
+
+	.social-img {
+		margin-top: 0px;
+	}
+
+	.second {
+	
+	}
+
+	.second-1 {
+	
+	}
+
+	.third {
+	
+	}
+
+	.transition-arrow {
+		width: 64px;
+		height: 64px;
+		background-size: 16px 26px;
+	}
+
+	.cafe-info {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.card-title{
+		line-height: 28px;
+		margin-top: 24px;
+		margin-bottom: 40px;
+		font-size: 24px;
+	}
+
+	.cafe-card {
+		margin-bottom: 51px;
+		height: 180px;
+	}
+
+	.card-tags {
+		margin-bottom: 16px;
+	}
+
+	.cafe-header {
+		background-position: top;
+		background-size: 100% 255px;
+		background-repeat: no-repeat;
+	}
+
+	.cafe {
+		align-items: flex-end;
+	}
+}
